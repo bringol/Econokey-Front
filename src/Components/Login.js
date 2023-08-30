@@ -11,7 +11,8 @@ import Box from '@mui/material/Box';
 //import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import logoMain from '../img/logoMain.png';
+//import logoMain from '../img/logoMain.png'; //Logo original Econokey
+import logoMain from '../img/EconoPass.png';
 import { red } from '@mui/material/colors';
 import { loginVault } from '../Controllers/WebService.controller';
 import Snackbar from '@mui/material/Snackbar';

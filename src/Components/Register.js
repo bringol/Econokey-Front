@@ -11,7 +11,8 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { red } from '@mui/material/colors';
-import logoMain from '../img/logoMain.png';
+//import logoMain from '../img/logoMain.png'; //Logo original econokey
+import logoMain from '../img/EconoPass.png';
 import { createVault } from '../Controllers/WebService.controller';
 import AppContext from '../AppContext';
 /*
@@ -188,7 +189,7 @@ export default function Register({ navigate }) {
               <Grid container justifyContent="flex-end">
                 <Grid item>
                   <Link href="#" variant="body2" color='secondary' onClick={redirectLogin}>
-                    Ya tenes una boveda? Ingresa.
+                    ¿Ya tienes una bóveda?
                   </Link>
                 </Grid>
               </Grid>
